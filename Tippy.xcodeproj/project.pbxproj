@@ -14,6 +14,8 @@
 		17AE9F0121A0E5F800D8917F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17AE9EFF21A0E5F800D8917F /* LaunchScreen.storyboard */; };
 		17AE9F0C21A0E5F800D8917F /* TippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE9F0B21A0E5F800D8917F /* TippyTests.swift */; };
 		17AE9F1721A0E5F800D8917F /* TippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AE9F1621A0E5F800D8917F /* TippyUITests.swift */; };
+		17AE9F3221A1007D00D8917F /* UISliderMin.png in Resources */ = {isa = PBXBuildFile; fileRef = 17AE9F3121A1007D00D8917F /* UISliderMin.png */; };
+		17AE9F3621A100B800D8917F /* UISliderMax.png in Resources */ = {isa = PBXBuildFile; fileRef = 17AE9F3521A100B800D8917F /* UISliderMax.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		17AE9F1221A0E5F800D8917F /* TippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17AE9F1621A0E5F800D8917F /* TippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyUITests.swift; sourceTree = "<group>"; };
 		17AE9F1821A0E5F800D8917F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17AE9F3121A1007D00D8917F /* UISliderMin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UISliderMin.png; path = ../../../../Downloads/UISliderMin.png; sourceTree = "<group>"; };
+		17AE9F3521A100B800D8917F /* UISliderMax.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = UISliderMax.png; path = ../../../../Downloads/UISliderMax.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		17AE9EEA21A0E5F700D8917F = {
 			isa = PBXGroup;
 			children = (
+				17AE9F2421A0F36C00D8917F /* Resoures */,
 				17AE9EF521A0E5F700D8917F /* Tippy */,
 				17AE9F0A21A0E5F800D8917F /* TippyTests */,
 				17AE9F1521A0E5F800D8917F /* TippyUITests */,
@@ -123,6 +128,15 @@
 				17AE9F1821A0E5F800D8917F /* Info.plist */,
 			);
 			path = TippyUITests;
+			sourceTree = "<group>";
+		};
+		17AE9F2421A0F36C00D8917F /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				17AE9F3121A1007D00D8917F /* UISliderMin.png */,
+				17AE9F3521A100B800D8917F /* UISliderMax.png */,
+			);
+			path = Resoures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +245,9 @@
 			files = (
 				17AE9F0121A0E5F800D8917F /* LaunchScreen.storyboard in Resources */,
 				17AE9EFE21A0E5F800D8917F /* Assets.xcassets in Resources */,
+				17AE9F3621A100B800D8917F /* UISliderMax.png in Resources */,
 				17AE9EFC21A0E5F700D8917F /* Main.storyboard in Resources */,
+				17AE9F3221A1007D00D8917F /* UISliderMin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +449,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VY98FM863T;
 				INFOPLIST_FILE = Tippy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VY98FM863T;
 				INFOPLIST_FILE = Tippy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
