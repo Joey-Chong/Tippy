@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-*After the video tutorial, I proceed to start making and altering the looks and the functionailities of the app. Most of the time spent on the project is to make the slider moves in snap and making sure it doesn't update the info everytime I move the slider for a bit. The whole project is simple yet fun.
+* After the video tutorial, I proceed to start making and altering the looks and the functionailities of the app. Most of the time spent on the project is to make the slider moves in snap and making sure it doesn't update the info everytime I move the slider for a bit. The whole project is simple yet fun.
 
 ## License
 
